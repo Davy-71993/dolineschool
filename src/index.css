@@ -1,0 +1,12 @@
+.c-section {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
