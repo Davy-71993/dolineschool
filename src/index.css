@@ -1,12 +1,20 @@
-.c-section {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
 }
-
-.hero{
-    width: 60%;
-    margin: 0 auto;
-    padding: 10px;
+.lead{
+    font-weight: 400;
+}
+.bg-lightblue{
+    background-color: #4886ff;
+}
+.bg-lightgreen{
+    background-color: #b5d56a;
+}
+.bg-redish{
+    background-color: #ff6f6f;
+}
+.bg-lightblue, .bg-lightgreen, .bg-redish{
+    border-radius: 5px;
 }
