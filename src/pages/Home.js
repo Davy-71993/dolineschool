@@ -1,38 +1,32 @@
 import React from 'react'
 
-import Footer from '../components/Footer';
-import Nav from '../components/Nav';
-
 function Home() {
     return (
         <div className="route-div">
-            <Nav/>
             <section className="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
                 <div className="container">
                     <div className="d-sm-flex align-items-center mb-md-5 justify-content-between">
                     <div>
                         <h1>A <span className="text-primary">Teaching</span> and <span className="text-primary">Learning</span> Tool</h1>
                         <p className="lead my-4">
-                        Well designed platform for students, teachers and anyone interested in uninterupted and self paced online learning or teaching.
+                            Well designed platform for students, teachers and anyone interested in uninterupted and self paced online learning or teaching.
                         </p>
                         <div className="row g-4">
                             <div className="col-sm">
-                                <button
+                                <a
+                                    href="/signup"
                                     className="btn btn-primary px-5 btn-lg"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#enroll"
                                 >
                                     Register
-                                </button>
+                                </a>
                             </div>
                             <div className="col-sm">
-                                <button
+                                <a
+                                    href="/login"
                                     className="btn btn-success px-5 btn-lg"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#enroll"
                                 >
                                     Login
-                                </button>
+                                </a>
                             </div>
                         </div>
                         
@@ -139,10 +133,6 @@ function Home() {
                     <a href="#ek" className="btn btn-outline-success">Sign Up Now</a>
                 </div>
             </section>
-
-
-            {/* footer */}
-            <Footer/>
         </div>
     )
 }

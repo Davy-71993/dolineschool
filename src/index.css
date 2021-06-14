@@ -18,3 +18,14 @@ body::before {
 .bg-lightblue, .bg-lightgreen, .bg-redish{
     border-radius: 5px;
 }
+.container-centered {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 90vh;
+} 
+.centered{
+    width: 100%;
+}
